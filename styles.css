@@ -1,0 +1,144 @@
+@font-face {
+    font-family: Kodchasan;
+    src: url(Kodchasan/Kodchasan-Regular.ttf);
+  }
+
+@font-face {
+    font-family: InriaSerif;
+    src: url(Inria_Serif/InriaSerif-Regular.ttf);
+}
+
+
+/*body{
+    background-image: url("images/bg.png");
+    background-size: 20vw;
+    background-repeat: repeat;
+}*/
+
+.navbar {
+    background-color: #ffc030;
+}
+
+.ml2 {
+    font-weight: 900;
+    font-size: 3.5em;
+}
+
+.ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.container-bg {
+    background-image: url("images/a time when we were classmates.png");
+    background-size: cover;
+}
+
+.home-text{
+    font-size: 4vw;
+}
+
+.banner-text-effect{
+    text-shadow: 2px 2px 10px #18586e;
+}
+
+.font1 {
+    font-family: InriaSerif;
+}
+
+.font2 {
+    font-family: Kodchasan;
+}
+
+.text-color1{
+    color: #3033ff;
+}
+
+.text-color2{
+    color: #ffc030;
+}
+
+
+.nav-text {
+    text-decoration: none;
+    font-family: Kodchasan;
+    color: white;
+    font-size: 100%;
+    transition: color 0.2s;
+}
+
+.nav-text:hover {
+    color: #3033ff;
+}
+
+.nav-text-current {
+    text-decoration: none;
+    font-family: Kodchasan;
+    color: white;
+    font-size: 100%;
+}
+
+
+#pfp-img {
+    width: 15vw;
+    filter: drop-shadow(0px 0px 4px #18586e);
+}
+
+.icon {
+    filter: invert(1) brightness(2) drop-shadow(0px 0px 4px #18586e);
+    width: 50px;
+    transition: transform 0.2s;
+}
+
+.icon:hover {
+    transform: scale(1.2, 1.2);
+    -moz-transform: scale(1.2, 1.2);
+    -webkit-transform: scale(1.2, 1.2);
+    -o-transform: scale(1.2, 1.2);
+}
+
+hr.solid {
+    border-top: 3px solid #ffc030;
+  }
+
+.sparkle {
+    width: 50px;
+}
+
+.section-thumbnail{
+    width: 20vw;
+    object-fit: cover;
+}
+
+.card{
+    border: #3033ff solid 1px;
+}
+
+.card-img-top {
+    transition: 0.2s;
+}
+.card-img-top:hover {
+    transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+}
+
+.btn{
+    color: #3033ff;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: Kodchasan;
+    border: #ffc030 solid 1px;
+    border-radius: 12px;
+    transition: 0.2s;
+}
+
+.btn:hover{
+    color: #3033ff;
+    border: #3033ff solid 1px;
+    background-color: rgba(0, 0, 0, 0);
+    transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+}

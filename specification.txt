@@ -1,0 +1,20 @@
+10 HTML tags:
+- <meta>
+- <link>
+- <nav>
+- <button>
+- <span>
+- <div>
+- <ul>
+- <li>
+- <iframe>
+- <audio>
+
+5 CSS properties:
+- display
+- background-image
+- transition
+- filter
+- transform
+
+I used JavaScript and Bootstrap to create animation and organize the website better with existing CSS classes.
