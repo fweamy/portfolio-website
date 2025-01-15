@@ -142,3 +142,9 @@ hr.solid {
     -webkit-transform: scale(1.1, 1.1);
     -o-transform: scale(1.1, 1.1);
 }
+
+.footer {
+    background-color: #ffc030;
+}
+
+
