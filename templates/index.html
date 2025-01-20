@@ -24,31 +24,41 @@
     </div>
 </div>
 
-<!--Page Content Introduction-->
+<!--Featured-->
 <div class="row justify-content-center d-flex">
-
-    <div class="col-4">
+    {% for card in featured %}
+    <div class="col-md-4">
         <div class="card mx-auto text-center w-75 m-5">
-            <img src="static/images/itch.jpg" class="card-img-top" alt="...">
+            <img src="{{ card['image'] }}" class="card-img-top" alt="{{ card['title'] }}">
             <div class="card-body">
-                <h5 class="card-title font1 text-color1">Game Projects</h5>
-                <p class="card-text font2 text-color2">RPG and puzzle game projects I have worked on, with a blend of horror and lighthearted narrative!</p>
-                <a href="games.html" class="btn btn-primary font2">See more</a>
+                <h5 class="card-title font1 text-color1">{{ card["title"] }}</h5>
+                <p class="card-text font2 text-color2">{{ card["desc"] }}</p>
+                <a href="{{ card['link'] }}" class="btn btn-primary font2">See more</a>
             </div>
         </div>
     </div>
-
-    <div class="col-4">
-        <div class="card mx-auto text-center w-75 m-5">
-            <img src="static/images/behance.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title font1 text-color1">Art & Design</h5>
-                <p class="card-text font2 text-color2">My graphic design and visual identity work for events and organizations.</p>
-                <a href="gallery.html" class="btn btn-primary font2">See more</a>
-            </div>
-        </div>
-    </div>
-
+    {% endfor %}
 </div>
+
+<!--Works-->
+<div class="display-5 font1 text-color1 text-center">
+    Works
+</div>
+
+<div class="row justify-content-center d-flex">
+    {% for card in works %}
+    <div class="col-md-4">
+        <div class="card mx-auto text-center w-75 m-3">
+            <img src="{{ card['image'] }}" class="card-img-top" alt="{{ card['title'] }}">
+            <div class="card-body">
+                <h5 class="card-title font1 text-color1">{{ card["title"] }}</h5>
+                <p class="card-text font2 text-color2">{{ card["tools"] }} <br> {{ card["desc"] }}</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
 
 {% endblock %}
