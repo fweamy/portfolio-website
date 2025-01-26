@@ -9,11 +9,12 @@
 }
 
 
-/*body{
+body{
     background-image: url("images/bg.png");
     background-size: 20vw;
     background-repeat: repeat;
-}*/
+    overflow-x: hidden;
+}
 
 .navbar {
     background-color: #ffc030;
