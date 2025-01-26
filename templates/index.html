@@ -47,12 +47,15 @@
 
 <div class="row justify-content-center d-flex">
     {% for card in works %}
-    <div class="col-md-4">
-        <div class="card mx-auto text-center w-75 m-3">
+    <div class="col-md-3 m-3">
+        <div class="card mx-auto text-center h-100 w-100">
             <img src="static/images/{{ card['image'] }}" class="card-img-top" alt="{{ card['title'] }}">
             <div class="card-body">
                 <h5 class="card-title font1 text-color1">{{ card["title"] }}</h5>
-                <p class="card-text font2 text-color2">{{ card["tools"] }} <br> {{ card["desc"] }}</p>
+                <p class="card-text font2 text-color2">
+                    <b>{{ card["tools"] }}</b>
+                    <br>
+                    {{ card["desc"] }}</p>
                 </a>
             </div>
         </div>
