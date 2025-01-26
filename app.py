@@ -24,8 +24,8 @@ projects = [
        "title": "The Night Embrace",
        "image": "tne.gif",
        "tools": "Unity, C#, Adobe Photoshop",
-        "desc": "A topdown game made with Unity tilemap system that includes an inventory system, game items represented as objects of classes, and pixel snapping for grahics display.",
-        "link": "/"
+        "desc": "A topdown game made with Unity tilemap system that includes an inventory system, game items represented as objects of classes, and pixel snapping for graphics display.",
+        "link": "https://fweamy.itch.io/the-night-embrace"
     },
     {
        "title": "Pomotivity App",
