@@ -32,21 +32,21 @@ projects = [
        "image": "pomotivity.png",
        "tools": "Python, SQL",
         "desc": "A CLI productivity app where users can create, read, update, delete tasks in a to-do list stored in a SQLite3 database and set a task to work on with a pomodoro timer.",
-        "link": "/"
+        "link": "https://github.com/fweamy/pomotivity-app"
     },
     {
        "title": "Personal Website",
        "image": "mysite.png",
        "tools": "Python, HTML, CSS, Javascript, Jinja, Flask framework, Bootstrap framework",
         "desc": "The website you are viewing right now!",
-        "link": "/"
+        "link": "https://github.com/fweamy/portfolio-website"
     },
     {
        "title": "Sorting Algorithms",
        "image": "sorting.png",
        "tools": "C",
         "desc": "A collection of attempts to implement sorting algorithms in C.",
-        "link": "/"
+        "link": "https://github.com/fweamy/sorting-algorithms"
     },
     {
        "title": "Musical Ping Pong",
