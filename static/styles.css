@@ -17,7 +17,7 @@ body{
 }
 
 .navbar {
-    background-color: #ffc030;
+    background-color: #ffa430;
 }
 
 .ml2 {
@@ -30,10 +30,11 @@ body{
     line-height: 1em;
 }
 
-.container-bg {
-    background-image: url("images/a time when we were classmates.png");
+.header-bg {
+    background-image: url("images/header_bg.png");
     background-size: cover;
 }
+
 
 .home-text{
     font-size: 4vw;
@@ -41,6 +42,11 @@ body{
 
 .banner-text-effect{
     text-shadow: 2px 2px 10px #18586e;
+}
+
+.about-bg {
+    background-image: url("images/about_bg.jpg");
+    background-size: cover;
 }
 
 .font1 {
@@ -56,7 +62,7 @@ body{
 }
 
 .text-color2{
-    color: #ffc030;
+    color: #ffa430;
 }
 
 
@@ -99,7 +105,7 @@ body{
 }
 
 hr.solid {
-    border-top: 3px solid #ffc030;
+    border-top: 3px solid white;
   }
 
 .sparkle {
@@ -113,12 +119,10 @@ hr.solid {
 
 .card{
     border: #3033ff solid 1px;
-}
-
-.card-img-top {
     transition: 0.2s;
 }
-.card-img-top:hover {
+
+.card:hover {
     transform: scale(1.1, 1.1);
     -moz-transform: scale(1.1, 1.1);
     -webkit-transform: scale(1.1, 1.1);
@@ -129,7 +133,7 @@ hr.solid {
     color: #3033ff;
     background-color: rgba(0, 0, 0, 0);
     font-family: Kodchasan;
-    border: #ffc030 solid 1px;
+    border: #ffa430 solid 1px;
     border-radius: 12px;
     transition: 0.2s;
 }
@@ -145,7 +149,7 @@ hr.solid {
 }
 
 .footer {
-    background-color: #ffc030;
+    background-color: #ffa430;
 }
 
 
