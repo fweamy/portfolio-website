@@ -40,13 +40,13 @@
     {% endfor %}
 </div>
 
-<!--Works-->
-<div class="display-5 font1 text-color1 text-center">
-    Works
+<!--Projects-->
+<div class="display-5 font1 text-color1 text-center" id="projects">
+    Projects
 </div>
 
 <div class="row justify-content-center d-flex">
-    {% for card in works %}
+    {% for card in projects %}
     <div class="col-md-3 m-3">
         <div class="card mx-auto text-center h-100 w-100">
             <img src="static/images/{{ card['image'] }}" class="card-img-top" alt="{{ card['title'] }}">

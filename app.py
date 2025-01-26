@@ -19,7 +19,7 @@ featured = [
     ]
 
 # Creates a list of dictionaries for work showcase cards
-works = [
+projects = [
     {
        "title": "The Night Embrace",
        "image": "tne.gif",
@@ -60,5 +60,5 @@ works = [
 
 @app.route("/")
 def index():
-    return render_template("index.html", featured=featured, works=works)
+    return render_template("index.html", featured=featured, projects=projects)
 
