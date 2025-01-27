@@ -22,6 +22,7 @@
                     <li class="nav-item active mx-4"><a class="nav-text" href="/">Home</a></li>
                     <li class="nav-item mx-4"><a class="nav-text" href="#about">About</a></li>
                     <li class="nav-item mx-4"><a class="nav-text" href="#projects">Projects</a></li>
+                    <li class="nav-item mx-4"><a class="nav-text" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -30,8 +31,34 @@
         
         {% endblock %}
 
-        <footer class="footer font2 text-center text-white">
-            © 2025 Bao Han Trinh. All Rights Reserved.
+        <footer class="footer font2 text-center text-white justify-content-center p-3">
+            <div class="h4 title" id="contact"> 
+                Leave a message for me! 
+            </div> 
+            <div class="row justify-content-center">
+                <form action="/message" method="POST">
+
+                <div class="col w-50 mx-auto"> 
+                    <div class="row mb-3">
+                        <input class="form-control" type="text" 
+                                name="name" placeholder="Name"
+                            required="required" /> 
+                    </div>
+
+                    <div class="row mb-3">
+                        <textarea class="form-control" name="message" 
+                                    placeholder="Your Message"
+                            required="required"></textarea> 
+                    </div>
+                </div>
+
+                <button class="btn text-light" type="submit"> 
+                Send 
+                </button> 
+
+                <p class="m-2">
+                    © 2025 Bao Han Trinh. All Rights Reserved.
+                </p>
         </footer>
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
