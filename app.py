@@ -1,7 +1,6 @@
 from flask import Flask, redirect, render_template, request, session
 import json
 
-# Open JSON file in read mode
 with open('data/main.json', 'r') as file:
     data = json.load(file)
 
