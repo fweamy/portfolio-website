@@ -20,6 +20,6 @@ def get_message():
             user_msg = json.load(file)
             user_msg['messages'].append(request.form)
             file.seek(0)
-            json.dump(user_msg, file, indent = 4)
+            json.dump(user_msg, file, indent=4)
         
         return redirect("/contact")
